@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+:root {
+  --color-primary: #136965;
+}
+
+body {
+  background-color: #303030;
+  color: white;
+  font-family: "Raleway";
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.welcome p {
+  color: #ffffff;
+}
