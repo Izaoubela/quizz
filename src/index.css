@@ -10,11 +10,13 @@ body {
   font-family: "Raleway";
 }
 
-.welcome {
+.welcome,
+.categorias {
   text-align: center;
 }
 
-.welcome button {
+.welcome button,
+.categorias button {
   background-color: var(--color-primary);
   color: white;
   border: none;
@@ -24,4 +26,8 @@ body {
 
 .welcome p {
   color: #ffffff;
+}
+
+.categorias button {
+  margin-right: 20px;
 }
