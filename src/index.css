@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
 :root {
-  --color-primary: #136965;
+  --color-primary: #677be9;
 }
 
 body {
@@ -11,12 +11,16 @@ body {
 }
 
 .welcome,
-.categorias {
+.categorias,
+.question-board,
+.score {
   text-align: center;
 }
 
 .welcome button,
-.categorias button {
+.categorias button,
+.next-question,
+.play-again {
   background-color: var(--color-primary);
   color: white;
   border: none;
@@ -30,4 +34,20 @@ body {
 
 .categorias button {
   margin-right: 20px;
+}
+
+.all-alternatives {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.question-board .alternative {
+  background-color: #9c9ce0;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.alternative:hover {
+  background-color: #acacdb;
 }
