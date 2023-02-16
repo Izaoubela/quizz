@@ -65,4 +65,44 @@ import Welcome from "./welcome";
 
 ```
 
-Sendo que 'Welcome' não precisa ser necessáriamente o mesmo nome colocado na exportação.
+Sendo que 'Welcome' não precisa ser necessariamente o mesmo nome colocado na exportação.
+
+### Conceitos React
+
+A estrutura de um componente é:
+
+```
+const NomeComponente = () => {
+
+  return(
+  <div> HTML </div>
+  )
+
+}
+
+export default NomeComponente
+```
+
+OU
+
+```
+function NomeComponent () {
+
+  return(
+    <div> HTML </div>
+  )
+}
+
+export default NomeComponente
+```
+
+- Um componente sempre retorna um HTML
+
+#### Conectando Componentes
+
+Para conectar um componente ao outro eu preciso utilizar de funcões.
+
+1. Crio uma função que terá um state, onde eu posso alterar o estado de uma variavel.
+2.
+
+SEMPRE QUE EU FIZ UM MAP, NO RETURN DE UM COMPONENTE, ELE PRECISA DA PROPRIEDADE 'KEY', E ELA TEM QUE TER UM VALOR UNICO. SEMPRE NO PRIMEIRO, OU SEJA, O CHILD DO RETURN!

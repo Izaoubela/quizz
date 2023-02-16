@@ -5,7 +5,7 @@ import Question from "./question";
 import Score from "./score";
 
 function App() {
-  const [gameMode, setModeGame] = useState(4);
+  const [gameMode, setModeGame] = useState(1);
 
   function changeMode(mode) {
     setModeGame(mode);
